@@ -1,0 +1,1 @@
+[print(str(i)+" "+str(i+2)) if not False in ([True if not i%x is 0 and not (i+2)%x is 0 else False for x in range(3,i)]) else print(end="") for i in range(3,100000)]
